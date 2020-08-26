@@ -9,3 +9,9 @@ oc new-app redhat-openjdk18-openshift:1.4~https://github.com/jovemfelix/kubernet
     -lapp=minikube-sample
 ```
 
+
+
+## Reference
+
+- Step-by-step: https://medium.com/swlh/kubernetes-configmap-confuguration-and-reload-strategy-9f8a286f3a44
+- Official documentation: https://cloud.spring.io/spring-cloud-kubernetes/reference/html/#propertysource-reload
