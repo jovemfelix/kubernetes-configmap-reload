@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: minikube-sample
-  namespace: default
+  namespace: demo
 data:
   app.data.name: name
   application.yml: |-

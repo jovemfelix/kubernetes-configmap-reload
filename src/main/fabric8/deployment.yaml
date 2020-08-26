@@ -17,7 +17,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: minikube-sample
-  namespace: default
+  namespace: demo
 spec:
   selector:
       matchLabels:
@@ -37,7 +37,7 @@ spec:
             - containerPort: 8080
           env:
             - name: env.namespace
-              value: default
+              value: demo
           volumeMounts:
             - name: config
               mountPath: /config

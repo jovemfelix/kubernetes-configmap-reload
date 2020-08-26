@@ -4,7 +4,7 @@ spring:
       config:
         enabled: true
         sources:
-          - namespace: default
+          - namespace: demo
             name: minikube-sample
       reload:
         enabled: true
